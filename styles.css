@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins'
+}
+body{
+   
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img.jpg');;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+p{
+  font-size: small;  
+}
+h1{
+    font-family: 'Inspiration';
+    font-weight:bold; 
+}
+.counter{
+    display: flex;
+    margin-top: 30px;
+}
+.box
+{
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+}
+.box h1{
+    font-size: 20px;
+}
+.box small{
+    font-size: 10px;
+}
+@media (min-width:576px) {
+   p{
+    font-size: medium;
+   }
+    .box{
+      width: 60px;
+      height: 50px;
+    }
+  
+    .box h1{
+      font-size: 30px;
+    }
+    .box small{
+      font-size:15px;
+    }
+  }
+  @media (min-width:768px) {
+    p{
+     font-size: large;
+    }
+     .box{
+       width: 70px;
+       height: 60px;
+     }
+   
+     .box h1{
+       font-size: 40px;
+     }
+     .box small{
+       font-size:20px;
+     }
+   }
